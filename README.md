@@ -52,3 +52,9 @@ bin/magento setup:install \
     --admin-email=john@example.com
 ```
 
+Install sample data:
+```bash
+bin/magento sampledata:deploy
+```
+
+
