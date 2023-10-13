@@ -42,8 +42,8 @@ bin/magento setup:install \
     --db-password=magento2 \
     --db-name=magento2 \
     --search-engine=opensearch \
-    --elasticsearch-host=opensearch \
-    --elasticsearch-port=9200 \
+    --opensearch-host=opensearch \
+    --opensearch-port=9200 \
     --cache-backend-redis-server=redis \
     --admin-user=admin \
     --admin-password=admin1234 \
