@@ -32,3 +32,6 @@ cp nginx.conf.sample nginx.conf
 docker-compose up -d
 docker-compose ps
 ```
+
+## Magento database configuration
+
