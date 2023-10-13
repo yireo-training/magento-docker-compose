@@ -48,6 +48,7 @@ bin/magento setup:install \
     --admin-user=admin \
     --admin-password=admin1234 \
     --admin-firstname=John \
-    --admin-lastname=John
+    --admin-lastname=Doe \
+    --admin-email=john@example.com
 ```
 
