@@ -5,7 +5,7 @@ services:
     image: nginx:latest
     hostname: localhost
     ports:
-      - 80
+      - "80:80"
     volumes:
       - ./src:/var/www/html:rw
       - ./docker-compose/nginx/default.conf:/etc/nginx/conf.d/default.conf
