@@ -55,6 +55,7 @@ bin/magento setup:install \
 Install sample data:
 ```bash
 bin/magento sampledata:deploy
+bin/magento setup:upgrade
 ```
 
 
