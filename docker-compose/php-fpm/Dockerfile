@@ -1,3 +1,4 @@
+FROM node:18 AS node
 FROM php:8.2-fpm
 
 ARG UNAME=www-data
