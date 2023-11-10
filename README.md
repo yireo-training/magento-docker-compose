@@ -56,6 +56,7 @@ Install sample data:
 ```bash
 bin/magento sampledata:deploy
 bin/magento setup:upgrade
+bin/magento index:reindex
 ```
 
 
