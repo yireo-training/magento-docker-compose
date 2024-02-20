@@ -21,7 +21,7 @@ docker exec -it magento-docker-compose_php-fpm_1 bash
 Within the PHP-FPM container, run the following:
 ```bash
 cd /var/www/html/
-composer create-project --repository-url=https://repo.mage-os.org/ magento/project-community-edition .
+composer create-project --repository-url=https://mage-os.hypernode.com/mirror/ magento/project-community-edition .
 ```
 
 ## Fix Nginx configuration
